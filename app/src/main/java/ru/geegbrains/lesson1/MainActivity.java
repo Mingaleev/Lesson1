@@ -30,11 +30,11 @@ public class MainActivity extends AppCompatActivity {
                     if (val1.equals(val2)) {
                         textView.setText("Равно");
                     } else {
-                        textView.setText("Не равно");
+                        textView.setText("Не равно!!");
                 }
 
                 } catch (NumberFormatException e) {
-                    textView.setText("Поля не могут быть пустыми");
+                    textView.setText("Поля не могут быть пустыми!!!123");
                 }
             }
         });
